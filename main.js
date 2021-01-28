@@ -8,13 +8,19 @@
     }
     Vue.createApp(app).mount('#app')
 
+    const colors = require('tailwindcss/colors');
+    
     module.exports = {
         theme: {
-         textColor: theme => theme('colors'),
-         textColor: {
-           'primary': '#3490dc',
-           'secondary': '#ffed4a',
-           'danger': '#e3342f',
-         }
+          colors: {
+            transparent: 'transparent',
+            current: 'currentColor',
+            black: colors.black,
+            white: colors.white,
+            gray: colors.trueGray,
+            indigo: colors.indigo,
+            red: colors.rose,
+            yellow: colors.amber,
+          }
         }
       }
