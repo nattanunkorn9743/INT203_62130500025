@@ -1,0 +1,24 @@
+{
+  "name": "INT203_62130500025",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "tailwindcss": "^2.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nattanunkorn9743/INT203_62130500025.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nattanunkorn9743/INT203_62130500025/issues"
+  },
+  "homepage": "https://github.com/nattanunkorn9743/INT203_62130500025#readme"
+}
